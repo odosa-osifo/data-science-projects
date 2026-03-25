@@ -274,3 +274,151 @@ jupyter notebook
 * Hyperparameter tuning
 * Deploy model as a web-based diagnostic tool
 
+
+# 🚗 Vehicle Price Prediction Using Machine Learning
+
+## 📌 Overview
+
+This project focuses on predicting vehicle prices using a large-scale dataset of over 400,000 records. The goal is to build a robust machine learning pipeline capable of delivering accurate predictions while handling real-world data challenges such as missing values, outliers, and high-cardinality categorical variables.
+
+---
+
+## 🎯 Objectives
+
+* Develop a complete machine learning pipeline for price prediction
+* Apply feature engineering to improve model performance
+* Compare multiple models and feature selection techniques
+* Optimise model performance using hyperparameter tuning
+* Evaluate ensemble learning approaches
+
+---
+
+## 📊 Dataset
+
+* 402,000+ vehicle records
+* Features include:
+
+  * Mileage
+  * Year of registration
+  * Vehicle condition
+  * Fuel type
+  * Make & model
+
+---
+
+## 🧠 Methodology
+
+### 🔹 Data Preprocessing
+
+* Missing value imputation:
+
+  * Numerical → Mean
+  * Categorical → Mode
+* Outlier handling using IQR (clipping extreme values)
+* Feature scaling using StandardScaler
+* One-Hot Encoding and Target Encoding
+
+---
+
+### 🔹 Feature Engineering
+
+* Created **Car_Age** from registration year
+* Combined features into **Make & Model**
+* Reduced dimensionality using encoding strategies
+
+---
+
+### 🔹 Feature Selection Techniques
+
+* SelectKBest (f_regression)
+* Recursive Feature Elimination (RFE)
+* Sequential Feature Selection (SFS)
+
+👉 Best method: **Sequential Feature Selection**
+
+---
+
+### 🔹 Models Implemented
+
+* Linear Regression
+* Random Forest Regressor
+* Gradient Boosting Regressor
+* XGBoost Regressor
+
+---
+
+### 🔹 Ensemble Learning
+
+* Averaging (Voting Regressor)
+* Stacking (Meta-model: RidgeCV)
+
+---
+
+## 📈 Evaluation Metrics
+
+* R² Score
+* Mean Absolute Error (MAE)
+* Mean Squared Error (MSE)
+* Root Mean Squared Error (RMSE)
+
+---
+
+## 🏆 Results
+
+| Model          | R² Score | MAE  |
+| -------------- | -------- | ---- |
+| Random Forest  | 0.94     | 1454 |
+| Gradient Boost | 0.88     | 2313 |
+| XGBoost        | 0.89     | 2312 |
+| Stacking       | 0.95     | 1568 |
+
+👉 Best Model: **Random Forest Regressor**
+👉 Best Ensemble: **Stacking (highest R²)**
+
+---
+
+## 💡 Key Insights
+
+* Feature engineering significantly improved model performance
+* Sequential Feature Selection captured feature interactions effectively
+* Tree-based ensemble models outperformed linear models
+* Random Forest provided the best balance between accuracy and generalisation
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* XGBoost
+* Matplotlib
+
+---
+
+## 📂 Project Structure
+
+```bash id="b0ju38"
+03-vehicle-price-prediction/
+├── notebooks/
+├── src/
+├── assets/
+└── README.md
+```
+
+---
+
+## 🚀 How to Run
+
+```bash id="71uddp"
+pip install -r requirements.txt
+jupyter notebook
+```
+
+---
+
+## 📌 Future Improvements
+
+* Deploy model as a pricing API
+* Incorporate real-time vehicle market data
+* Explore deep learning approaches for regression
