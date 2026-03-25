@@ -1,4 +1,4 @@
-# data-science-projects
+# Data-Science-Projects
 # 🫁 Lung Cancer Risk Prediction Using Machine Learning
 
 ## 📌 Overview
