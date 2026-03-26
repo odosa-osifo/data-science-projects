@@ -1,7 +1,7 @@
-# Data-Science-Projects
+# Project 1
 # 🫁 Lung Cancer Risk Prediction Using Machine Learning
 
-## 📌 Overview
+## Overview
 
 This project focuses on predicting lung cancer risk using non-invasive lifestyle and health indicators. The goal is to build an interpretable and accurate machine learning system that can support early detection and preventive healthcare.
 
@@ -9,7 +9,7 @@ Unlike traditional diagnostic methods (e.g., CT scans), this approach uses easil
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Develop machine learning models to predict lung cancer risk
 * Compare performance across multiple algorithms
@@ -18,7 +18,7 @@ Unlike traditional diagnostic methods (e.g., CT scans), this approach uses easil
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 * ~20,000 patient records
 * Features include:
@@ -31,7 +31,7 @@ The dataset enables prediction using **non-invasive indicators**, making the sol
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 ### 🔹 Data Preprocessing
 
@@ -60,7 +60,7 @@ The dataset enables prediction using **non-invasive indicators**, making the sol
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 * Accuracy
 * Precision
@@ -73,7 +73,7 @@ Special focus was placed on **recall**, due to the importance of correctly ident
 
 ---
 
-## 🏆 Key Results
+## Key Results
 
 * Ensemble models achieved the best performance
 * Balanced Bagging demonstrated strong real-world applicability
@@ -85,7 +85,7 @@ Special focus was placed on **recall**, due to the importance of correctly ident
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 * Machine learning can effectively predict lung cancer risk using non-invasive data
 * Ensemble methods outperform single models in this domain
@@ -93,7 +93,7 @@ Special focus was placed on **recall**, due to the importance of correctly ident
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 * Python
 * Pandas, NumPy
@@ -103,7 +103,7 @@ Special focus was placed on **recall**, due to the importance of correctly ident
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 01-lung-cancer-risk-prediction/
@@ -115,7 +115,7 @@ Special focus was placed on **recall**, due to the importance of correctly ident
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 pip install -r requirements.txt
@@ -124,7 +124,7 @@ jupyter notebook
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * External validation on real clinical datasets
 * Deployment as a web-based risk prediction tool
@@ -139,10 +139,10 @@ This project is based on my MSc dissertation:
 📄 Lung Cancer Risk Prediction Dissertation
 
 
-
+# Project 2
 # 🧬 Skin Cancer Classification Using Deep Learning
 
-## 📌 Overview
+## Overview
 
 This project focuses on building and comparing deep learning models for multi-class skin disease classification using dermatoscopic images.
 
@@ -150,7 +150,7 @@ The objective is to evaluate the performance of CNN-based architectures and tran
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Build and train multiple deep learning models for image classification
 * Compare CNN vs Transformer performance
@@ -159,7 +159,7 @@ The objective is to evaluate the performance of CNN-based architectures and tran
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 * ~37,000 dermatoscopic images
 
@@ -178,7 +178,7 @@ The objective is to evaluate the performance of CNN-based architectures and tran
 
 ---
 
-## 🧠 Models Implemented
+## Models Implemented
 
 ### 🔹 CNN-Based Models
 
@@ -196,7 +196,7 @@ The objective is to evaluate the performance of CNN-based architectures and tran
 
 ---
 
-## ⚙️ Training Configuration
+##  Training Configuration
 
 * Loss Function: Cross Entropy Loss
 * Optimizer: Adam
@@ -206,7 +206,7 @@ The objective is to evaluate the performance of CNN-based architectures and tran
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 * Accuracy
 * Precision
@@ -216,7 +216,7 @@ The objective is to evaluate the performance of CNN-based architectures and tran
 
 ---
 
-## 🏆 Results
+##  Results
 
 | Model        | Accuracy | Precision | Recall   | F1 Score |
 | ------------ | -------- | --------- | -------- | -------- |
@@ -225,11 +225,11 @@ The objective is to evaluate the performance of CNN-based architectures and tran
 | ViT          | 0.81     | 0.78      | 0.84     | 0.80     |
 | **Custom**   | **0.87** | **0.83**  | **0.86** | **0.84** |
 
-👉 Best Model: **Custom EfficientNet-based model**
+Best Model: **Custom EfficientNet-based model**
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 * CNN models performed strongly on structured medical images
 * Vision Transformer showed competitive but slightly lower performance
@@ -238,7 +238,7 @@ The objective is to evaluate the performance of CNN-based architectures and tran
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python
 * PyTorch
@@ -247,7 +247,7 @@ The objective is to evaluate the performance of CNN-based architectures and tran
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 02-skin-cancer-classification/
@@ -259,7 +259,7 @@ The objective is to evaluate the performance of CNN-based architectures and tran
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 pip install -r requirements.txt
@@ -268,22 +268,23 @@ jupyter notebook
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Increase dataset size for better generalisation
 * Hyperparameter tuning
 * Deploy model as a web-based diagnostic tool
 
 
+# Project 3
 # 🚗 Vehicle Price Prediction Using Machine Learning
 
-## 📌 Overview
+##  Overview
 
 This project focuses on predicting vehicle prices using a large-scale dataset of over 400,000 records. The goal is to build a robust machine learning pipeline capable of delivering accurate predictions while handling real-world data challenges such as missing values, outliers, and high-cardinality categorical variables.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * Develop a complete machine learning pipeline for price prediction
 * Apply feature engineering to improve model performance
@@ -293,7 +294,7 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 * 402,000+ vehicle records
 * Features include:
@@ -306,7 +307,7 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 ### 🔹 Data Preprocessing
 
@@ -334,7 +335,7 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 * Recursive Feature Elimination (RFE)
 * Sequential Feature Selection (SFS)
 
-👉 Best method: **Sequential Feature Selection**
+ Best method: **Sequential Feature Selection**
 
 ---
 
@@ -354,7 +355,7 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 * R² Score
 * Mean Absolute Error (MAE)
@@ -363,7 +364,7 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 
 ---
 
-## 🏆 Results
+##  Results
 
 | Model          | R² Score | MAE  |
 | -------------- | -------- | ---- |
@@ -372,12 +373,12 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 | XGBoost        | 0.89     | 2312 |
 | Stacking       | 0.95     | 1568 |
 
-👉 Best Model: **Random Forest Regressor**
-👉 Best Ensemble: **Stacking (highest R²)**
+ Best Model: **Random Forest Regressor**
+ Best Ensemble: **Stacking (highest R²)**
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 * Feature engineering significantly improved model performance
 * Sequential Feature Selection captured feature interactions effectively
@@ -386,7 +387,7 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Python
 * Pandas, NumPy
@@ -396,7 +397,7 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```bash id="b0ju38"
 03-vehicle-price-prediction/
