@@ -1,5 +1,8 @@
+# Data Science Portfolio
+
 # Project 1
-# 🫁 Lung Cancer Risk Prediction Using Machine Learning
+
+**Title:** [🫁 Lung Cancer Risk Prediction Using Machine Learning]
 
 ## Overview
 
