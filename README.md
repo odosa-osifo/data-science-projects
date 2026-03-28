@@ -260,7 +260,7 @@ This project demonstrates the application of both convolutional neural networks 
   * Malignant
 
 **Class Distibution:**
- [Class Distribution](assets/class%20distribution.png)
+ [Class Distribution](02-skin-cancer-classification/assets/class%20distribution.png)
 
 * Images resized to **224×224**
 
@@ -317,7 +317,7 @@ This project demonstrates the application of both convolutional neural networks 
 
 Best Model: **Custom EfficientNet-based model**
 
-## Model Performance
+## Best Model Performance
 
 ### Confusion Matrix
 ![Confusion Matrix](02-skin-cancer-classification/assets/Confusion_Matrix_CM.png)
