@@ -258,11 +258,15 @@ This project demonstrates the application of both convolutional neural networks 
   * Pigment disorders
   * Benign
   * Malignant
+ 
 
 **Class Distibution:**
- [Class Distribution](02-skin-cancer-classification/assets/class%20distribution.png)
+
+ ![Class Distribution](02-skin-cancer-classification/assets/class%20distribution.png)
 
 * Images resized to **224×224**
+
+ ![images](02-skin-cancer-classification/assets/skin%20cancer.png)
 
 * Train/Validation/Test split: **80/10/10**
 
