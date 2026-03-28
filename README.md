@@ -402,7 +402,7 @@ jupyter notebook notebooks/[VIT](https://colab.research.google.com/drive/1hsPcLg
 # Project 3
 # 🚗 Vehicle Price Prediction Using Machine Learning
 
-
+![Car](cars.jpeg)
 ##  Overview
 
 This project focuses on predicting vehicle prices using a large-scale dataset of over 400,000 records. The goal is to build a robust machine learning pipeline capable of delivering accurate predictions while handling real-world data challenges such as missing values, outliers, and high-cardinality categorical variables.
