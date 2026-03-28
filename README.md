@@ -317,6 +317,14 @@ This project demonstrates the application of both convolutional neural networks 
 
 Best Model: **Custom EfficientNet-based model**
 
+## Model Performance
+
+### Confusion Matrix
+![Confusion Matrix](02-skin-cancer-classification/assets/Confusion_Matrix_CM.png)
+
+### Training Curves
+![Training Curves](02-skin-cancer-classification/assets/train_valid_curves.png)
+
 ---
 
 ##  Key Insights
