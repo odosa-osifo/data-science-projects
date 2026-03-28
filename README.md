@@ -381,8 +381,8 @@ jupyter notebook notebooks/[VIT](https://colab.research.google.com/drive/1hsPcLg
 [EffientNet](https://colab.research.google.com/drive/1Xhr9xQBtjzFW4M_wMF7RVcYNEztothPh)
 [Resnet18](https://colab.research.google.com/drive/198J0s4VQucHTDFk4W2FTrR1vOkDxryF_)
 [Custom_Built](https://colab.research.google.com/drive/1Qy_6YZdq-O_kyiDfx2pkdZEPrzeVoU9_)
-
 ```
+
 ---
 ## Skills Demonstrated
 
