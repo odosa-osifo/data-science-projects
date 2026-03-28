@@ -461,6 +461,8 @@ This project practically demonstrates how machine learning can be applied to rea
   * Numerical → Mean
   * Categorical → Mode
 * Outlier handling using IQR (clipping extreme values to the closest inlier using winsorization)
+  
+ ![Outlier Handling](03-vehicle-price-prediction/assets/outlier.png)
 * Feature scaling using StandardScaler
 * One-Hot Encoding and Target Encoding
 
@@ -518,7 +520,14 @@ This project practically demonstrates how machine learning can be applied to rea
 | XGBoost        | 0.89     | 2312 |
 | Stacking       | 0.95     | 1568 |
 
- Best Model: **Random Forest Regressor**, achieving strong predictive performance with R² = 0.94 and low MAE.
+**Model Performance**
+![Model Performance](03-vehicle-price-prediction/assets/model_performance.png)
+
+Best Model: **Random Forest Regressor**, achieving strong predictive performance with R² = 0.94 and low MAE.
+
+**Actual vs Predicated**
+![Actual vs Predicated](03-vehicle-price-prediction/assets/actual_vs_predicted.png)
+ 
  Best Ensemble: **Stacking (highest R²)** with 95%
 
 ---
