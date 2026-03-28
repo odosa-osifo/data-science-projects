@@ -5,7 +5,7 @@
 **Title:** [🫁 Lung Cancer Risk Prediction Using Machine Learning](https://github.com/odosa-osifo/data-science/blob/main/Lung_Cancer_Risk_Prediction.ipynb)
 
 ## ⚡ Key Results (Quick Summary)
-- Best Model: Balanced Bagging
+- Best Model: Balanced Bagging Classifier
 - Focus Metric: High Recall(Ensemble-99% after Hyper-parameter tunning) for early detection
 - Dataset: 20,000 patients
 - Key Features: Smoking, Age, Symptoms
