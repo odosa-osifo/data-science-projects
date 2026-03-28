@@ -203,7 +203,7 @@ jupyter notebook/lung_Cancer_Risk_Prediction.ipynb
 
 
 # Project 2
-**Title:** 🧬 Skin Cancer Classification Using Deep Learning
+**Title: 🧬 Skin Cancer Classification Using Deep Learning**
 Automated multi-class classification of skin diseases using CNN and Transformer-based deep learning models.
 
 **Models**
