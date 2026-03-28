@@ -447,6 +447,9 @@ This project practically demonstrates how machine learning can be applied to rea
   * Make & model
   * Price
 
+ **Feature Importance**
+![Feature Importance](03-vehicle-price-prediction/assets/Feature_importance.png)
+
 ---
 
 ##  Methodology
