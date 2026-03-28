@@ -338,12 +338,16 @@ Best Model: **Custom EfficientNet-based model**, achieving the highest accuracy 
 * Custom hybrid model achieved the best balance of precision and recall
 * Data augmentation significantly improved generalisation
 
+## Model Comparison Insight
+The custom model outperformed both standard CNN architectures and the Vision Transformer, indicating that combining pretrained feature extraction with tailored classification layers can improve performance on medical image datasets.
+
 ---
 
 ## Tech Stack
 
 * Python
-* PyTorch
+* PyTorch (Deep Learning)
+* Torchvision (Pretrained Models)
 * NumPy, Pandas
 * Matplotlib
 
@@ -360,20 +364,34 @@ Best Model: **Custom EfficientNet-based model**, achieving the highest accuracy 
 ```
 
 ---
-
 ##  How to Run
 
+1. Clone the repository:
 ```bash
-pip install -r requirements.txt
-jupyter notebook
+git clone https://github.com/odosa-osifo/data-science.git
+cd 02-skin-cancer-classification
 ```
+2. Install Dependencies
+```
+pip install -r requirements.txt
+```
+3. Run the Notebook
+```
+jupyter notebook notebooks/skin_cancer_classification.ipynb
+```
+---
+## Skills Demonstrated
+
+- Deep learning model development using PyTorch
+- Transfer learning with pretrained CNN architectures
+- Transformer-based image classification (ViT)
+- Model evaluation using classification metrics
+- Data augmentation for improved generalisation
 
 ---
-
 ##  Future Improvements
 
 * Increase dataset size for better generalisation
-* Hyperparameter tuning
 * Deploy model as a web-based diagnostic tool
 
 
