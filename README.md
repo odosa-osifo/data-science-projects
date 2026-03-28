@@ -400,14 +400,23 @@ jupyter notebook notebooks/[VIT](https://colab.research.google.com/drive/1hsPcLg
 
 
 # Project 3
- [🚗 Vehicle Price Prediction Using Machine Learning]()
+ **Title:** [🚗 Vehicle Price Prediction Using Machine Learning](https://colab.research.google.com/drive/13R9DJMGn6mva8_DAMLeO2R6Ow-R4mAJD)
 
 ![Car](cars.jpeg)
+
 ##  Overview
 
 This project focuses on predicting vehicle prices using a large-scale dataset of over 400,000 records. The goal is to build a robust machine learning pipeline capable of delivering accurate predictions while handling real-world data challenges such as missing values, outliers, and high-cardinality categorical variables.
 
+This project practically demonstrates how machine learning can be applied to real-world pricing problems, combining feature engineering and ensemble models to improve predictive accuracy.
 ---
+## ⚡ Key Results (Quick Summary)
+
+- Best Model: Random Forest Regressor
+- R² Score: 0.94
+- MAE: 1454
+- Dataset: 400K+ records
+- Approach: Feature engineering + ensemble learning + Hyperparameter tuning
 
 ##  Objectives
 
@@ -418,6 +427,12 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 * Evaluate ensemble learning approaches
 
 ---
+## 💼 Business / Real-World Impact
+
+- Enables accurate vehicle price estimation for buyers and sellers
+- Can support pricing systems in automotive marketplaces
+- Helps reduce pricing errors using data-driven predictions
+---
 
 ##  Dataset
 
@@ -427,8 +442,10 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
   * Mileage
   * Year of registration
   * Vehicle condition
+  * Condition
   * Fuel type
   * Make & model
+  * Price
 
 ---
 
@@ -440,7 +457,7 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 
   * Numerical → Mean
   * Categorical → Mode
-* Outlier handling using IQR (clipping extreme values)
+* Outlier handling using IQR (clipping extreme values to the closest inlier using winsorization)
 * Feature scaling using StandardScaler
 * One-Hot Encoding and Target Encoding
 
@@ -450,7 +467,7 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 
 * Created **Car_Age** from registration year
 * Combined features into **Make & Model**
-* Reduced dimensionality using encoding strategies
+* Reduced dimensionality using encoding strategies and PCA
 
 ---
 
@@ -460,7 +477,7 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 * Recursive Feature Elimination (RFE)
 * Sequential Feature Selection (SFS)
 
- Best method: **Sequential Feature Selection**
+ Best method: **Sequential Feature Selection** was determined by SFS having the lowest MAE 
 
 ---
 
@@ -498,8 +515,8 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 | XGBoost        | 0.89     | 2312 |
 | Stacking       | 0.95     | 1568 |
 
- Best Model: **Random Forest Regressor**
- Best Ensemble: **Stacking (highest R²)**
+ Best Model: **Random Forest Regressor**, achieving strong predictive performance with R² = 0.94 and low MAE.
+ Best Ensemble: **Stacking (highest R²)** with 95%
 
 ---
 
@@ -516,7 +533,7 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 
 * Python
 * Pandas, NumPy
-* Scikit-learn
+* Scikit-learn(Machine Learning)
 * XGBoost
 * Matplotlib
 
@@ -536,13 +553,35 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 
 ##  How to Run
 
-```bash id="71uddp"
-pip install -r requirements.txt
-jupyter notebook
+1. Clone the repository:
+```bash
+git clone https://github.com/odosa-osifo/data-science.git
+cd 03-vehicle-price-prediction
 ```
+2. Install Dependencies
+```
+pip install -r requirements.txt
+```
+3. Run the Notebook
+```
+jupyter notebook notebooks/vehicle_price_prediction.ipynb
+```
+---
+## Skills Demonstrated
 
+- End-to-end machine learning pipeline development
+- Feature engineering and selection
+- Handling large-scale datasets (400K+ records), using n_jobs speed up performances by increasing cpu cores used 
+- Ensemble learning techniques (stacking, averaging)
+- HyperParameter Tuning using Grid Search Cross Validation 
+- Model evaluation using regression metrics(r2, MAE, MSE, RMSE)
 ---
 
+## Limitations
+
+- Model trained on historical data and may not reflect real-time market changes
+- Performance may vary across different regions or vehicle categories
+---
 ##  Future Improvements
 
 * Deploy model as a pricing API
