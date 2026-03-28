@@ -266,7 +266,7 @@ This project demonstrates the application of both convolutional neural networks 
 
 * Images resized to **224×224**
 
- ![images](02-skin-cancer-classification/assets/skin%20cancer.png)
+ ![sample images](02-skin-cancer-classification/assets/skin%20cancer.png)
 
 * Train/Validation/Test split: **80/10/10**
 
@@ -319,7 +319,7 @@ This project demonstrates the application of both convolutional neural networks 
 | ViT          | 0.81     | 0.78      | 0.84     | 0.80     |
 | **Custom**   | **0.87** | **0.83**  | **0.86** | **0.84** |
 
-Best Model: **Custom EfficientNet-based model**
+Best Model: **Custom EfficientNet-based model**, achieving the highest accuracy (87%) and best balance between precision and recall.
 
 ## Best Model Performance
 
