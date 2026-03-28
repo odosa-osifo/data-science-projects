@@ -2,7 +2,7 @@
 
 # Project 1
 
-**Title:** [🫁 Lung Cancer Risk Prediction Using Machine Learning](https://github.com/odosa-osifo/data-science/blob/main/Lung_Cancer_Risk_Prediction.ipynb)
+**Title:** [🫁 Lung Cancer Risk Prediction Using Machine Learning](https://colab.research.google.com/drive/1dBYuzVBkKIbPC3_p1D85HeKoOXOZtApZ)
 
 ![Overview](Lung-Cancer-Illustration-Feature.png)
 
