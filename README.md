@@ -406,9 +406,8 @@ jupyter notebook notebooks/[VIT](https://colab.research.google.com/drive/1hsPcLg
 
 ##  Overview
 
-This project focuses on predicting vehicle prices using a large-scale dataset of over 400,000 records. The goal is to build a robust machine learning pipeline capable of delivering accurate predictions while handling real-world data challenges such as missing values, outliers, and high-cardinality categorical variables.
+This project focuses on predicting vehicle prices using a large-scale dataset of over 400,000 records. The goal is to build a robust machine learning pipeline capable of delivering accurate predictions while handling real-world data challenges such as missing values, outliers, and high-cardinality categorical variables. This project practically demonstrates how machine learning can be applied to real-world pricing problems, combining feature engineering and ensemble models to improve predictive accuracy.
 
-This project practically demonstrates how machine learning can be applied to real-world pricing problems, combining feature engineering and ensemble models to improve predictive accuracy.
 ---
 ## ⚡ Key Results (Quick Summary)
 
