@@ -575,6 +575,7 @@ jupyter notebook notebooks/vehicle_price_prediction.ipynb
 - Ensemble learning techniques (stacking, averaging)
 - HyperParameter Tuning using Grid Search Cross Validation 
 - Model evaluation using regression metrics(r2, MAE, MSE, RMSE)
+
 ---
 
 ## Limitations
