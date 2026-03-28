@@ -531,6 +531,20 @@ Best Model: **Random Forest Regressor**, achieving strong predictive performance
  Best Ensemble: **Stacking (highest R²)** with 95%
 
 ---
+**SHAP Explainability**
+
+SHAP values were used to provide both global and local explanations of model predictions, highlighting how individual features influence specific predictions.
+
+![Shap Explainability](03-vehicle-price-prediction/assets/Shap_summary_Plot.png)
+
+Interpretation
+
+The model’s behaviour aligns with real-world expectations:
+- Higher mileage generally leads to lower prices  
+- Newer vehicles (lower car age) tend to have higher value  
+- Brand and model play a significant role in pricing  
+
+This demonstrates that the model is not only accurate but also **interpretable and aligned with domain knowledge**, increasing trust in its predictions.
 
 ##  Key Insights
 
