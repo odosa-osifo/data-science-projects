@@ -469,8 +469,8 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 
 ### 🔹 Feature Engineering
 
-* Created **Car_Age** from registration year
-* Combined features into **Make & Model**
+* Created Car_Age from registration year
+* Combined features into Make & Model
 * Reduced dimensionality using encoding strategies and PCA
 
 ---
@@ -481,7 +481,7 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 * Recursive Feature Elimination (RFE)
 * Sequential Feature Selection (SFS)
 
- Best method: **Sequential Feature Selection** was determined by SFS having the lowest MAE 
+ Best method: Sequential Feature Selection was the best method for feature selection and was determined by having the lowest MAE 
 
 ---
 
@@ -522,12 +522,12 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 **Model Performance**
 ![Model Performance](03-vehicle-price-prediction/assets/model_performance.png)
 
-Best Model: **Random Forest Regressor**, achieving strong predictive performance with R² = 0.94 and low MAE.
+Best Model: Random Forest Regressor, achieving strong predictive performance with R² = 0.94 and low MAE.
 
 **Actual vs Predicated**
 ![Actual vs Predicated](03-vehicle-price-prediction/assets/actual_vs_predicted.png)
  
- Best Ensemble: **Stacking (highest R²)** with 95%
+ Best Ensemble: Stacking (highest R²) with 95%
 
 ---
 **SHAP Explainability**
@@ -543,7 +543,7 @@ The model’s behaviour aligns with real-world expectations:
 - Newer vehicles (lower car age) tend to have higher value  
 - Brand and model play a significant role in pricing  
 
-This demonstrates that the model is not only accurate but also **interpretable and aligned with domain knowledge**, increasing trust in its predictions.
+This demonstrates that the model is not only accurate but also interpretable and aligned with domain knowledge, increasing trust in its predictions.
 
 ##  Key Insights
 
@@ -566,10 +566,9 @@ This demonstrates that the model is not only accurate but also **interpretable a
 
 ##  Project Structure
 
-```bash id="b0ju38"
+```
 03-vehicle-price-prediction/
 ├── notebooks/
-├── src/
 ├── assets/
 └── README.md
 ```
@@ -607,6 +606,7 @@ jupyter notebook notebooks/vehicle_price_prediction.ipynb
 
 - Model trained on historical data and may not reflect real-time market changes
 - Performance may vary across different regions or vehicle categories
+
 ---
 ##  Future Improvements
 
